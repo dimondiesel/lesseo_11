@@ -1,0 +1,564 @@
+body{
+	background-color: #00bffe;
+}
+.cloud{
+	width: 200px;
+	height: 100px;
+	position: absolute;
+	z-index: 1;
+}
+.sky__cloud-one{
+	width: 150px;
+	height: 75px;
+	left: 150px;
+	top: 50px;	
+}
+.sky__cloud-one .cloud--one {
+	background-color: white;
+	width:180px;
+	height: 20px;
+	border-radius: 20px 20px;
+	position: absolute;
+	left: 0px;
+	top: 75%;
+}
+.sky__cloud-one .cloud--two {
+	background-color: white;
+	width:40px;
+	height: 40px;
+	border-radius: 50%;
+	position: absolute;
+	left: 10%;
+	top: 35%;
+}
+.sky__cloud-one .cloud--three {
+	background-color: white;
+	width:50px;
+	height: 50px;
+	border-radius: 50%;
+	position: absolute;
+	left: 55%;
+	top: 25%;
+}
+.sky__cloud-one .cloud--four {
+	background-color: white;
+	width:55px;
+	height: 55px;
+	border-radius: 50%;
+	position: absolute;
+	left: 25%;
+	top: 0px;
+}
+.sky__cloud-one .cloud--center{
+	background-color: white;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: absolute;
+	left: 30%;
+	top: 25%;
+}
+.sky__cloud-two{
+	left: 1200px;
+	top: 150px;		
+}
+.sky__cloud-three{	
+	left: 1500px;
+	top: 250px;		
+}
+.cloud--one {
+	background-color: white;
+	width: 200px;
+	height: 30px;
+	border-radius: 30px 30px;
+	position: absolute;
+	left: 0px;
+	top: 70%;
+}
+.cloud--two {
+	background-color: white;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	position: absolute;
+	left: 10%;
+	top: 30%;
+}
+.cloud--three {
+	background-color: white;
+	width:60px;
+	height: 60px;
+	border-radius: 50%;
+	position: absolute;
+	left: 55%;
+	top: 30%;
+}
+.cloud--four {
+	background-color: white;
+	width:80px;
+	height: 80px;
+	border-radius: 50%;
+	position: absolute;
+	left: 25%;
+	top: 0px;
+}
+.cloud--center{
+	background-color: white;
+	width:70px;
+	height: 70px;
+	border-radius: 50%;
+	position: absolute;
+	left: 30%;
+	top: 10%;
+}
+
+
+.rainbow {
+	position: absolute;
+	width:800px;
+	height: 650px;	
+	left: -150px;
+	top: 200px;
+}
+.rainbow--red {
+	position: absolute;
+	background-color: red;
+	width: 800px;
+	height: 650px;
+	border-radius: 50%;
+	left: 0px;
+	top: 0px;
+}
+.rainbow--orangered {
+	position: absolute;
+	background-color:orangered;
+	width: 770px;
+	height: 630px;
+	border-radius: 50%;
+	z-index: 1;
+	left: 15px;
+	top: 10px;
+}
+.rainbow--yellow {
+	position: absolute;
+	background-color: yellow;
+	width: 740px;
+	height: 610px;
+	border-radius: 50%;
+	left: 30px;
+	top: 20px;
+	z-index: 2;
+}
+.rainbow--green {
+	position: absolute;
+	background-color: green;
+	width: 710px;
+	height: 580px;
+	border-radius: 50%;
+	left: 45px;
+	top: 30px;
+	z-index: 3;
+}
+.rainbow--skyblue {
+	position: absolute;
+	background-color: #00bffe;
+	width:680px;
+	height: 550px;
+	border-radius: 50%;
+	left: 60px;
+	top: 43px;
+	z-index: 4;
+}
+.rainbow--blue {
+	position: absolute;
+	background-color: blue;
+	width: 650px;
+	height: 520px;
+	border-radius: 50%;
+	left: 75px;
+	top: 55px;
+	z-index: 5;
+}
+.rainbow--violet {
+	position: absolute;
+	background-color: blueviolet;
+	width: 620px;
+	height: 490px;
+	border-radius: 50%;
+	left: 90px;
+	top: 68px;
+	z-index: 6;
+}
+.rainbow--sky{
+	position: absolute;
+	background-color: #00bfff;
+	width:590px;
+	height: 460px;
+	border-radius: 50%;
+	left: 105px;
+	top: 80px;
+	z-index: 7;
+}
+.sun {
+	position: absolute;
+	left: 1050px;
+	top: 250px;	
+}
+.sun__circle {
+	background-color: yellow;
+	width:150px;
+	height: 150px;
+	border-radius: 50%;
+}
+.mountain--left-green {
+	position: absolute;
+	background-color: green;
+	width: 500px; 
+	height: 450px;
+	border-radius: 50%;
+	left: 30px;
+	top: 330px;
+	z-index: 7;	
+}
+.mountain--left-greenyellow {
+	position: absolute;
+	background-color: greenyellow;
+	width:580px; 
+	height: 480px;
+	border-radius: 50%;
+	left: -200px;
+	top: 400px;
+	z-index: 7;
+}
+.mountain--main {
+	position: absolute;
+	background-color: rgb(25, 184, 78);
+	width:900px; 
+	height: 800px;
+	border-radius: 50%;
+	left: 400px;
+	top: 330px;
+	z-index: 8;
+}
+.mountain--right-green {
+	position: absolute;
+	background-color: green;
+	width: 500px; 
+	height: 450px;
+	border-radius: 50%;
+	left: 1000px;
+	top: 350px;
+	z-index: 7;
+}
+.mountain--right-greenyellow {
+	position: absolute;
+	background-color: greenyellow;
+	width:580px; 
+	height: 480px;
+	border-radius: 50%;
+	left: 1300px;
+	top: 430px;
+	z-index: 7;
+}
+.city__wall{
+	position: absolute;
+	width: 300px;
+	height: 350px;
+	background-color: white;
+	z-index: 10;
+	left: 580px;
+	top: 270px;
+}
+.window {
+	position: absolute;
+	width: 40px;
+	height: 100px;
+	background-color:#00bffe;;
+	z-index: 11;
+	border-radius: 20px 20px 0px 0px;	
+}
+.windows--right-bottom {
+	left: 30px;
+	top: 200px;
+}
+.windows--right-top {
+	left: 30px;
+	top: 40px;
+}
+.windows--center {
+	left: 125px;
+	top: 40px;
+}
+
+.windows--left-top {
+	left: 230px;
+	top: 40px;
+}
+.windows--left-bottom {
+	left: 230px;
+	top: 200px;
+}
+.city__door {
+}
+.door {
+	position: absolute;
+	width: 60px;
+	height: 160px;
+	background-color:brown;
+	z-index: 11;
+	border-radius: 30px 30px 0px 0px;
+	left: 120px;
+	top: 190px;
+}
+.door__step {
+	position: absolute;
+	width:100px;
+	height: 15px;
+	background-color:rgb(169, 98, 98);
+	z-index: 11;	
+	left: -20px;
+	top: 150px;
+}
+.door__step--top {
+	position: absolute;
+	width:80px;
+	height: 15px;
+	background-color:rgb(169, 98, 98);
+	z-index: 11;	
+	left: -10px;
+	top: 140px;
+}
+.door__handle {
+	position: absolute;
+	width:10px;
+	height: 3px;
+	background-color:rgb(239, 217, 217);
+	z-index: 11;	
+	left: 40px;
+	top: 70px;
+}
+.city__roof {
+	position: absolute;
+	width: 160px;
+	height: 150px;
+	background-color:orangered;
+	z-index: 11;	
+	left: 570px;
+	top: 150px;
+	border-radius:	17% 83% 0% 100% / 99% 0% 100% 1% ;
+}
+.city__roof--right{
+	position: absolute;
+	width: 160px;
+	height: 150px;
+	background-color:orangered;
+	z-index: 11;	
+	left: 730px;
+	top: 150px;
+	border-radius:	88% 12% 100% 0% / 0% 100% 0% 100% ;
+}
+.city__pipe {
+	position: absolute;
+	width: 40px;
+	height: 50px;
+	background-color:orangered;
+	z-index: 11;	
+	left: 50px;
+	top: -40px;
+}
+.city__pipe--main {
+	position: absolute;
+	width: 60px;
+	height: 15px;
+	background-color:orangered;
+	z-index: 11;	
+	left: -10px;
+	top: -15px;
+}
+.bushes {
+	position: absolute;
+	left: 320px;
+	top: 520px;
+	z-index: 9;
+}
+.city__bushes-main{
+	position: absolute;
+	left: 700px;
+	top: 520px;
+	z-index: 9;
+}
+.bush {
+	position: absolute;
+	width: 50px;
+	height: 60px;
+	border-radius: 50%;
+	background-color:green;
+	z-index: 12;	
+}
+.bushes-one {
+	left: 110px;
+	top: 55px;
+}
+.bushes-two {
+	width: 20px;
+	height: 40px;
+	left: 130px;
+	top: 50px;
+}
+.bushes-three {
+	width: 40px;
+	height: 50px;
+	left: 140px;
+	top: 50px;
+}
+.bushes-four {
+	width: 30px;
+	height: 40px;
+	left: 160px;
+	top: 30px;
+}
+.bushes-five {
+	width: 50px;
+	height: 70px;
+	left: 180px;
+	top: 20px;
+}
+.bushes-six {
+	width: 70px;
+	height: 50px;
+	left: 200px;
+	top: 30px;
+}
+.bushes-seven {
+	width: 60px;
+	height: 60px;
+	left: 230px;
+	top: 40px;
+}
+.bushes-eight {
+	width: 50px;
+	height: 60px;
+	left: 270px;
+	top: 50px;
+}
+.bushes-nine {
+	width: 230px;
+	height: 60px;
+	left: 100px;
+	top: 70px;
+}
+.city__fence-main{
+	position: absolute;
+	left: 750px;
+	top:390px;
+	z-index: 8;
+}
+.city__fence {
+	position: absolute;
+	left: 320px;
+	top:390px;
+	z-index: 8;
+}
+.fence {
+	position: absolute;
+	width:180px;
+	height: 15px;
+	border-radius: 7px;
+	background-color:rgb(169, 98, 98);
+	z-index: 11;	
+}
+.fences--one {
+	left: 100px;
+	top: 200px;
+}
+.fences--two {
+	left: 100px;
+	top: 150px;
+}
+.fences--three {
+	position: absolute;
+	width:15px;
+	height: 100px;
+	border-radius: 7px;
+	background-color:rgb(238, 225, 46);
+	left: 120px;
+	top: 130px;
+}
+.fences--four {
+	position: absolute;
+	width:15px;
+	height: 100px;
+	border-radius: 7px;
+	background-color:rgb(238, 225, 46);
+	left: 155px;
+	top: 130px;
+}
+.fences--five {
+	position: absolute;
+	width:15px;
+	height: 100px;
+	border-radius: 7px;
+	background-color:rgb(238, 225, 46);
+	left: 190px;
+	top: 130px;
+}
+.fences--six {
+	position: absolute;
+	width:15px;
+	height: 100px;
+	border-radius: 7px;
+	background-color:rgb(238, 225, 46);
+	left: 230px;
+	top: 130px;
+}
+.road {
+	position: absolute;
+	background-color: rgb(49, 49, 48);
+	width: 100%; 
+	height: 200px;
+	top: 620px;
+	z-index: 10;
+}
+.road__botton {
+	position: absolute;
+	background-color: white;
+	width: 100%; 
+	height: 5px;
+	top: 10px;
+	z-index: 9;
+}
+.road__top {
+	position: absolute;
+	background-color: white;
+	width: 100%; 
+	height: 5px;
+	top: 185px;
+	z-index: 9;
+}
+.road__center {
+	position: absolute;
+	height: 5px;
+	top: 95px;
+	z-index: 9;
+}
+.road__line {
+}
+.line {
+	position: absolute;
+	background-color: white;
+	width: 100px; 
+	height: 5px;
+	z-index: 10;
+}
+.line--one {
+	left: 300px;	
+}
+.line--two {
+	left: 700px;	
+}
+.line--three {
+	left: 1100px;
+}
+.line--four {
+	left: 1500px;
+}
